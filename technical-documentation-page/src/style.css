@@ -1,0 +1,24 @@
+header {
+  font-size: 24px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  margin-left: 10px;
+}
+
+#main-doc {
+  margin-left: 315px;
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
